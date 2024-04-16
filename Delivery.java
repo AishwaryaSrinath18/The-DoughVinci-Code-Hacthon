@@ -198,13 +198,7 @@ public class DeliveryOptimizer {
         optimizer.addOrder(new Order("7", "KitchenA", "CustomerD", 15));
         optimizer.addOrder(new Order("8", "KitchenB", "CustomerB", 25));
         optimizer.addOrder(new Order("9", "KitchenC", "CustomerA", 10));
-        optimizer.addOrder(new Order("10", "KitchenD", "CustomerB", 30));
-        optimizer.addOrder(new Order("11", "KitchenE", "CustomerE", 20));
-        optimizer.addOrder(new Order("12", "KitchenF", "CustomerC", 35));
-        optimizer.addOrder(new Order("13", "KitchenG", "CustomerD", 15));
-        optimizer.addOrder(new Order("14", "KitchenH", "CustomerA", 40));
-        optimizer.addOrder(new Order("15", "KitchenI", "CustomerD", 45));
-        optimizer.addOrder(new Order("16", "KitchenJ", "CustomerE", 20));
+       
 
         List<Rider> optimizedDeliveries = optimizer.optimizeDelivery();
         for (Rider rider : optimizedDeliveries) {
